@@ -15,7 +15,7 @@ export class Bottle extends React.Component {
             <div className="pingaInfoBox clearfix">
               <div className="row">
                 <div className="col-md-2">
-                  <img src="/src/img/garrafa1.png" className="pingaBottlePageImage" />
+                  <img src="/src/img/garrafa_1.png" className="pingaBottlePageImage" />
                 </div>
                 <div className="col-md-6">
                   <div className="pingaInfoBoxTitle img-responsive">

@@ -27,11 +27,11 @@ const getSuggestionValue = suggestion => suggestion.name;
 // Rendering suggestions.
 const renderSuggestion = suggestion => (
   <div>
-    <table key={suggestion.key} className="searchTable" >
+    <table key={suggestion.id} className="searchTable" >
       <tbody>
         <tr>
           <td>
-            <img src="\src\img\garrafa1.png" width="12px"/>
+            <img src={"/src/img/garrafa_" + suggestion.id + ".png"} width="12px"/>
           </td>
           <td width="100%">
         <Link to={'/cachaca/' + suggestion.name}><span><strong className="tt-highlight">{suggestion.name}</strong></span></Link>
