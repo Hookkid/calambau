@@ -1,9 +1,9 @@
-mobx-react-boilerplate
+Cachaças de Calambau Online Store
 =====================
 
-Boilerplate to show how [React](https://facebook.github.io/react), [MobX](https://mobxjs.github.io/mobx) and [Firebase](https://firebase.google.com) work together.
+This is my most comprehensive react project to date. A fully-featured eCommerce liquor web page in one page powered by React for the DOM manipulations, MobX for state/prop/stores while firebase holds it all together.
 
-This is an evolved version based on [mobx-react-boilerplate](https://github.com/mobxjs/mobx-react-boilerplate).
+Work has just begun.
 
 ### Run the example
 

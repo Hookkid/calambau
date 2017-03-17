@@ -1,7 +1,7 @@
-import {todos} from './todos/todos';
+import {bottles} from './bottles/bottles';
 
 const store = {
-  todos
+  bottles
 };
 
 window.store = store;

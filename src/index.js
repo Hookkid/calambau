@@ -1,8 +1,10 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-import App from './component/app';
-import {store} from './store/store';
+import css from './css/style.css'
+import React from 'react'
+import { render } from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
+import App from './component/app'
+import {store} from './store/store'
+
 
 render(
     <AppContainer>

@@ -1,0 +1,279 @@
+body{
+	background-color: #f2f5f7;
+	font-size: 14px;
+}
+
+header{
+	background-color: #ffffff;
+}
+
+footer{
+	background-color: #888888;
+
+}
+
+footer a{
+	color: #ffffff;
+}
+
+a{
+	color:  #ff4300;
+}
+
+a:hover{
+	color:  #ff0000;
+}
+.nav>li>a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #888888;
+}
+.nav>li>a.active {
+	color: #ff4300;
+}
+
+.btn{
+	background-color: #000000;
+}
+
+.btn-primary{
+	background-color: #ff4300;
+	border-color: #ff0000;
+}
+
+.topBar li{
+	padding: 4px;
+	color: #888888;
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+
+.active{
+	color: #ff4300;
+	font-weight: bold;
+}
+
+.topBar li.loginHeader{
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	padding-left: 16px;
+	padding-right: 16px;
+	cursor: pointer;
+}
+
+.loginBox{
+	position: absolute;
+	width: 260px;
+	top:29;
+	right: 12;
+    border-radius: 8px 0px 8px 8px;    
+    background-color: #fdfdfd;
+    border: 7px solid #414141;
+    background: #FFF;
+    padding: 10px;
+    display: none;
+}
+
+.loginBox input {
+	margin-bottom: 10px;
+}
+
+.searchArea{
+}
+
+.form-group{
+	width: 100%;
+}
+
+.pingaBox{
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	padding: 8px;
+	height: 90px;
+
+}
+
+.carousel-control.left,.carousel-control.right {
+	background-image: none;
+}
+
+.searchParamBox, .pingaInfoBox{
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+	padding: 16px;
+}
+
+.pingaInfoBox{
+	margin-bottom: 22px;
+}
+
+
+
+.searchParamBox li {
+	font-size: 0.9em;
+	padding: 3px;
+}
+
+.pingaInfoBox{
+
+}
+
+.pingaInfoBoxImage{
+	float: left;
+	padding: 10px;
+	height: 250px;
+}
+
+.pingaBottlePageImage{
+	float: left;
+	padding: 20px;
+	height: 400px;
+}
+
+.pingaInfoBoxTitle{
+	font-size: 1.5em;
+	color: #ff4300;
+}
+
+.pingaInfoBox ul{
+
+}
+
+.buyBox{
+	background: linear-gradient(#f8f8f8,#eeeeee);
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	padding: 8px;
+}
+
+.buyBox p{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-weight: 600;
+}
+
+.buyBox h3{
+	text-align: center;
+}
+.pingaInfoBox .list-group-item{
+	border-radius: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.display-table{
+	margin-top: 12px;
+	margin-bottom: 12px;
+    display: table;
+    table-layout: fixed;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.buyBoxQuantity{
+	width: 20%;
+	margin-right: 0px;
+	margin-left: 40px;
+	float: left;
+}
+
+.buyForm{
+	text-align: center;
+}
+
+.pagination{
+	width: 100%;
+}
+
+.registerBar{
+	background-color: #ff4300;
+	color: #ffffff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.registerBar input.textBox {
+	border-radius: 3px;
+	padding: 3px;
+	border: 1px solid #888888;
+	height: 33px;
+}
+
+.registerHeader{
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.react-autosuggest__suggestions-container{
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	left: 0px;
+	z-index: 100;
+	background-color: #fff;
+	border: 1px solid #ff4300;
+	border-top: none;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+}
+
+.react-autosuggest__container{
+  
+  
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  background-color: #fff;
+  }
+
+  .react-autosuggest__suggestions-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.catalog-search-result {
+    background-color: #ffffff;
+    color: #484d56;
+    width: 500px;
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 400px;
+  }
+
+.searchTable{
+  padding: 5px;
+  margin: 0;
+}
+
+.searchTable td{
+  padding: 5px;
+  
+}
+
+.searchTable tr:hover,.react-autosuggest__suggestion--focused{
+  background-color: #f0aaaa;
+  cursor: pointer;
+}
+
+.search-field, .react-autosuggest__input {
+    width: 100%;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #E2E2E2;
+    background-color: #F9F9F9;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #484d56;
+    height: 40px;
+
+}
+
+
+
+.glyphicon-search{
+	z-index: 5000;
+}
