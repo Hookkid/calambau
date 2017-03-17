@@ -4,7 +4,7 @@ import React from 'react'
 import {Fb} from '../../firebase/firebase-store'
 import {map, toJS} from 'mobx'
 import {browserHistory} from 'react-router'
-import $ from 'jQuery'
+import $ from 'jquery'
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {map} from 'lodash'
-import $ from "jQuery"
+import $ from "jquery"
 import Autosuggest from 'react-autosuggest'
 import { AutocompleteComponent } from './../smart/autocomplete'
 
